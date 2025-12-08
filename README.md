@@ -21,3 +21,7 @@ This project utilizes snapshot versions of the following key Remote Compose libr
 - `remote-player-compose`
 - `remote-core`
 - `remote-tooling-preview`
+
+## Attribution
+
+The sample applications in this project are based (copied!) from the integration tests for Remote Compose from the Android Open Source Project. You can find the original source code [here](https://android.googlesource.com/platform/frameworks/support/+/androidx-main/compose/remote/integration-tests/).

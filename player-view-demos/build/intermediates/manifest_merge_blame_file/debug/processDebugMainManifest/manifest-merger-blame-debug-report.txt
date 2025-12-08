@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2025 The Android Open Source Project
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9       http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="androidx.compose.remote.integration.view.demos" >
+19
+20    <uses-sdk
+21        android:minSdkVersion="29"
+22        android:targetSdkVersion="29" />
+23
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:20:5-77
+24-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:20:22-74
+25    <uses-permission android:name="android.permission.BLUETOOTH" />
+25-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:21:5-68
+25-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:21:22-65
+26    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+26-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:22:5-74
+26-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:22:22-71
+27
+28    <!-- Bluetooth permissions for Android 12+ -->
+29    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+29-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:25:5-76
+29-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:25:22-73
+30    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+30-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:26:5-73
+30-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:26:22-70
+31    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+31-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:27:5-78
+31-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:27:22-75
+32
+33    <!-- File storage permissions -->
+34    <uses-permission
+34-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:30:5-31:38
+35        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+35-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:30:22-78
+36        android:maxSdkVersion="32" />
+36-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:31:9-35
+37    <uses-permission
+37-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:32:5-33:38
+38        android:name="android.permission.READ_EXTERNAL_STORAGE"
+38-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:32:22-77
+39        android:maxSdkVersion="32" />
+39-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:33:9-35
+40
+41    <permission
+41-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+42        android:name="androidx.compose.remote.integration.view.demos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+42-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+43        android:protectionLevel="signature" />
+43-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+44
+45    <uses-permission android:name="androidx.compose.remote.integration.view.demos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+45-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+45-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+46
+47    <application
+47-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:36:5-146:19
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.16.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/35c27d6a1898d5929285fd9f655bcba2/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:enableOnBackInvokedCallback="true"
+50-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:37:9-51
+51        android:extractNativeLibs="false"
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:38:9-43
+53        android:label="Remote Compose Experiments"
+53-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:39:9-51
+54        android:supportsRtl="true"
+54-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:40:9-35
+55        android:testOnly="true"
+56        android:theme="@style/Theme.RemoteComposeDemos" >
+56-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:41:9-56
+57
+58        <!-- <activity -->
+59        <!-- android:name=".BluetoothClientActivity" -->
+60        <!-- android:configChanges="uiMode" -->
+61        <!-- android:exported="true" -->
+62        <!-- android:label="Client BT" -->
+63        <!-- android:theme="@android:style/Theme.Material.Light.NoActionBar"> -->
+64        <!-- <intent-filter> -->
+65        <!-- <action android:name="android.intent.action.MAIN" /> -->
+66
+67
+68        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+69        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+70        <!-- </intent-filter> -->
+71        <!-- </activity> -->
+72
+73        <activity
+73-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:57:9-69:20
+74            android:name="androidx.compose.remote.integration.view.demos.ActivityLongRun"
+74-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:58:13-44
+75            android:configChanges="uiMode"
+75-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:59:13-43
+76            android:exported="true"
+76-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:60:13-36
+77            android:label="RCLong"
+77-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:61:13-35
+78            android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+78-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:62:13-76
+79            <intent-filter>
+79-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:63:13-68:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:17-69
+80-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:17-76
+82-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:27-73
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:17-77
+83-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:71:9-83:20
+87            android:name="androidx.compose.remote.integration.view.demos.ExperimentActivity"
+87-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:72:13-47
+88            android:configChanges="uiMode"
+88-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:73:13-43
+89            android:exported="true"
+89-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:74:13-36
+90            android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+90-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:75:13-76
+91            <intent-filter>
+91-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:76:13-82:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:17-69
+92-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:17-76
+94-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:27-73
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:17-77
+95-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:27-74
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:17-76
+96-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:27-73
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:17-77
+97-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:27-74
+98            </intent-filter>
+99        </activity>
+100
+101        <!-- <activity -->
+102        <!-- android:name=".SduiCalculator" -->
+103        <!-- android:configChanges="uiMode" -->
+104        <!-- android:exported="true" -->
+105        <!-- android:label="RCCalc" -->
+106        <!-- android:theme="@android:style/Theme.Material.Light.NoActionBar"> -->
+107        <!-- <intent-filter> -->
+108        <!-- <action android:name="android.intent.action.MAIN" /> -->
+109
+110
+111        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+112        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+113        <!-- </intent-filter> -->
+114        <!-- </activity> -->
+115
+116        <activity
+116-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:99:9-113:20
+117            android:name="androidx.compose.remote.integration.view.demos.DocPlayerActivity"
+117-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:100:13-46
+118            android:configChanges="uiMode"
+118-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:101:13-43
+119            android:exported="true"
+119-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:102:13-36
+120            android:icon="@drawable/viewer"
+120-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:104:13-44
+121            android:label="RC Player"
+121-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:103:13-38
+122            android:roundIcon="@drawable/viewer"
+122-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:105:13-49
+123            android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+123-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:106:13-76
+124            <intent-filter>
+124-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:107:13-112:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:108:17-69
+125-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:108:25-66
+126                <action android:name="android.intent.action.MAIN" />
+126-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:17-69
+126-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:25-66
+127
+128                <data android:mimeType="application/remote-compose-doc" />
+128-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:111:17-75
+128-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:111:23-72
+129            </intent-filter>
+130        </activity>
+131        <activity
+131-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:115:9-129:20
+132            android:name="androidx.compose.remote.integration.view.demos.ExperimentRecyclerActivity"
+132-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:116:13-55
+133            android:configChanges="uiMode"
+133-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:117:13-43
+134            android:exported="true"
+134-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:118:13-36
+135            android:icon="@drawable/recycler"
+135-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:120:13-46
+136            android:label="RC View"
+136-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:119:13-36
+137            android:roundIcon="@drawable/recycler"
+137-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:121:13-51
+138            android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+138-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:122:13-76
+139            <intent-filter>
+139-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:63:13-68:29
+140                <action android:name="android.intent.action.MAIN" />
+140-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:17-69
+140-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:64:25-66
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:17-76
+142-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:66:27-73
+143                <category android:name="android.intent.category.LAUNCHER" />
+143-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:17-77
+143-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:67:27-74
+144            </intent-filter>
+145        </activity>
+146
+147        <receiver
+147-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:131:9-145:20
+148            android:name="androidx.compose.remote.integration.view.demos.ExperimentWidgetProvider"
+148-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:132:13-53
+149            android:exported="true"
+149-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:133:13-36
+150            android:label="RemoteCompose Widget" >
+150-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:134:13-49
+151            <intent-filter>
+151-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:135:13-137:29
+152                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+152-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:136:17-84
+152-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:136:25-81
+153            </intent-filter>
+154
+155            <meta-data
+155-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:139:13-141:81
+156                android:name="android.appwidget.oldName"
+156-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:140:17-57
+157                android:value="com.android.deskclock.AnalogAppWidgetProvider" />
+157-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:141:17-78
+158            <meta-data
+158-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:142:13-144:59
+159                android:name="android.appwidget.provider"
+159-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:143:17-58
+160                android:resource="@xml/launcher_widget" />
+160-->/Users/kiran.kk/Development/KITE/player-view-demos/src/main/AndroidManifest.xml:144:17-56
+161        </receiver>
+162
+163        <activity
+163-->[androidx.compose.ui:ui-tooling-android:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3906ca0cb87124b1cc4571c3377cec95/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+164            android:name="androidx.compose.ui.tooling.PreviewActivity"
+164-->[androidx.compose.ui:ui-tooling-android:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3906ca0cb87124b1cc4571c3377cec95/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+165            android:exported="true" />
+165-->[androidx.compose.ui:ui-tooling-android:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3906ca0cb87124b1cc4571c3377cec95/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+166        <activity
+166-->[androidx.compose.ui:ui-test-manifest:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/bf2179d14c06c1a4a4b0b9cc0eb1071a/transformed/ui-test-manifest-1.10.0/AndroidManifest.xml:23:9-26:79
+167            android:name="androidx.activity.ComponentActivity"
+167-->[androidx.compose.ui:ui-test-manifest:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/bf2179d14c06c1a4a4b0b9cc0eb1071a/transformed/ui-test-manifest-1.10.0/AndroidManifest.xml:24:13-63
+168            android:exported="true"
+168-->[androidx.compose.ui:ui-test-manifest:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/bf2179d14c06c1a4a4b0b9cc0eb1071a/transformed/ui-test-manifest-1.10.0/AndroidManifest.xml:25:13-36
+169            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+169-->[androidx.compose.ui:ui-test-manifest:1.10.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/bf2179d14c06c1a4a4b0b9cc0eb1071a/transformed/ui-test-manifest-1.10.0/AndroidManifest.xml:26:13-76
+170
+171        <uses-library
+171-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+172            android:name="androidx.window.extensions"
+172-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+173            android:required="false" />
+173-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+174        <uses-library
+174-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+175            android:name="androidx.window.sidecar"
+175-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+176            android:required="false" />
+176-->[androidx.window:window:1.5.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/3fd7e79c69c61280c41df68f3a95c28e/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+177
+178        <provider
+178-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+180            android:authorities="androidx.compose.remote.integration.view.demos.androidx-startup"
+180-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+181            android:exported="false" >
+181-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+182            <meta-data
+182-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+183-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+184                android:value="androidx.startup" />
+184-->[androidx.emoji2:emoji2:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/e8d727c4827fb84f611f149b56772486/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+185            <meta-data
+185-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/kiran.kk/.gradle/caches/8.13/transforms/7f2eb1ea17445cfc2be6b242afff8bf5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+186-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/kiran.kk/.gradle/caches/8.13/transforms/7f2eb1ea17445cfc2be6b242afff8bf5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+187                android:value="androidx.startup" />
+187-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/kiran.kk/.gradle/caches/8.13/transforms/7f2eb1ea17445cfc2be6b242afff8bf5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+188            <meta-data
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+190                android:value="androidx.startup" />
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+191        </provider>
+192
+193        <receiver
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+194            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+194-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+195            android:directBootAware="false"
+195-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+196            android:enabled="true"
+196-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+197            android:exported="true"
+197-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+198            android:permission="android.permission.DUMP" >
+198-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+199            <intent-filter>
+199-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+200                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+200-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+200-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+201            </intent-filter>
+202            <intent-filter>
+202-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+203                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+203-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+203-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+204            </intent-filter>
+205            <intent-filter>
+205-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+206                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+206-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+206-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+207            </intent-filter>
+208            <intent-filter>
+208-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+209                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kiran.kk/.gradle/caches/8.13/transforms/d92f2470646591ea6ccb6eb7d1c39785/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+210            </intent-filter>
+211        </receiver>
+212    </application>
+213
+214</manifest>

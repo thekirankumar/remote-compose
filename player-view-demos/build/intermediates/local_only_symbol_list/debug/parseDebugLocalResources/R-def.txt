@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable launcher_widget_preview
+drawable mostly_cloudy
+drawable mostly_sunny
+drawable partly_cloudy
+drawable recycler
+drawable refresh
+drawable showers_rain
+drawable viewer
+drawable windy_breezy
+mipmap ic_launcher
+style Theme.RemoteComposeDemos
+xml launcher_widget

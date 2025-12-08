@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_viewer.xml.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/viewer.xml"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_refresh.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/refresh.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_mostly_cloudy.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/mostly_cloudy.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_windy_breezy.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/windy_breezy.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/xml_launcher_widget.xml.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/xml/launcher_widget.xml"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_partly_cloudy.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/partly_cloudy.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_recycler.xml.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/recycler.xml"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_showers_rain.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/showers_rain.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_mostly_sunny.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/mostly_sunny.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.view.demos.player-view-demos-debug-58:/drawable_launcher_widget_preview.png.flat",
+        "source": "androidx.compose.remote.integration.view.demos.player-view-demos-main-60:/drawable/launcher_widget_preview.png"
+    }
+]

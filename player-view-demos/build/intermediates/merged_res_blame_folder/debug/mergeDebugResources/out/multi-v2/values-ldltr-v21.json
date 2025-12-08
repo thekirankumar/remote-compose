@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "androidx.compose.remote.integration.view.demos.player-view-demos-mergeDebugResources-56:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/kiran.kk/.gradle/caches/8.13/transforms/a1bd5bd404672419624ddc24ed0d4c58/transformed/appcompat-1.7.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

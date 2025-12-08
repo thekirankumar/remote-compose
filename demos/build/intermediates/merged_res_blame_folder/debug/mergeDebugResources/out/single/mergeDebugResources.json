@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "androidx.compose.remote.integration.demos-debug-58:/xml_list_widget_info.xml.flat",
+        "source": "androidx.compose.remote.integration.demos-main-60:/xml/list_widget_info.xml"
+    }
+]

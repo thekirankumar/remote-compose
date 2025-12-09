@@ -11,6 +11,10 @@ This approach is powerful for situations where the UI needs to be changed freque
 - Rolling out new UI features dynamically
 - Displaying dynamic content from a CMS
 
+## Demo
+
+![Demo GIF](github/demo.gif)
+
 ## Running This Project
 
 This is a standard Android Studio project. You can clone it, open it in Android Studio, and run it on an emulator or a physical device to see a simple implementation of a remotely-rendered UI.

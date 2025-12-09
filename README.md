@@ -13,7 +13,8 @@ This approach is powerful for situations where the UI needs to be changed freque
 
 ## Demo
 
-![Demo GIF](github/demo.gif)
+![Demo 1 GIF](github/demo1.gif)
+![Demo 2 GIF](github/demo2.gif)
 
 ## Running This Project
 
